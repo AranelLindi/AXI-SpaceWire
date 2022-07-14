@@ -7,8 +7,11 @@
 #########
 *
 !*/
-SpaceWireRouter*
-SpaceWireLight*
+AXI-SpaceWire.cache
+AXI-SpaceWire.gen
+AXI-SpaceWire.hw
+AXI-SpaceWire.ip_user_files
+AXI-SpaceWire.sim
 !.gitignore
 ###########################################################################
 ##	VIVADO
