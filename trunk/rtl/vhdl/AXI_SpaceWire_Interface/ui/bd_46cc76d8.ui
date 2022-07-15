@@ -1,98 +1,99 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.853285",
-   "Default View_TopLeft":"-284,1",
+   "Default View_ScaleFactor":"0.795238",
+   "Default View_TopLeft":"-664,1",
    "ExpandedHierarchyInLayout":"",
    "PinnedBlocks":"",
+   "commentid":"",
    "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
 #  -string -flagsOSRD
-preplace port S00_AXI_DMA -pg 1 -lvl 0 -x -10 -y 790 -defaultsOSRD
-preplace port S01_AXI_DMA -pg 1 -lvl 0 -x -10 -y 810 -defaultsOSRD
-preplace port port-id_spw_di -pg 1 -lvl 0 -x -10 -y 390 -defaultsOSRD
-preplace port port-id_spw_si -pg 1 -lvl 0 -x -10 -y 410 -defaultsOSRD
-preplace port port-id_spw_do -pg 1 -lvl 7 -x 2520 -y 470 -defaultsOSRD
-preplace port port-id_spw_so -pg 1 -lvl 7 -x 2520 -y 490 -defaultsOSRD
-preplace port port-id_rst_logic -pg 1 -lvl 0 -x -10 -y 130 -defaultsOSRD
-preplace port port-id_fclk -pg 1 -lvl 0 -x -10 -y 830 -defaultsOSRD
-preplace port port-id_rst_axi -pg 1 -lvl 0 -x -10 -y 850 -defaultsOSRD
-preplace port port-id_clk100 -pg 1 -lvl 0 -x -10 -y 910 -defaultsOSRD
-preplace port port-id_spw_running_intr -pg 1 -lvl 7 -x 2520 -y 750 -defaultsOSRD
-preplace port port-id_rx_overflow_intr -pg 1 -lvl 7 -x 2520 -y 1290 -defaultsOSRD
-preplace port port-id_rx_underflow_intr -pg 1 -lvl 7 -x 2520 -y 1310 -defaultsOSRD
-preplace port port-id_tx_underflow_intr -pg 1 -lvl 7 -x 2520 -y 1040 -defaultsOSRD
-preplace port port-id_tx_overflow_intr -pg 1 -lvl 7 -x 2520 -y 1020 -defaultsOSRD
-preplace port port-id_tick_in_intr -pg 1 -lvl 0 -x -10 -y 660 -defaultsOSRD
-preplace port port-id_tick_out_intr -pg 1 -lvl 7 -x 2520 -y 190 -defaultsOSRD
-preplace portBus spw_err_intr -pg 1 -lvl 7 -x 2520 -y 570 -defaultsOSRD
-preplace inst axi_bram_ctrl_spwstream -pg 1 -lvl 2 -x 520 -y 530 -defaultsOSRD
-preplace inst axi_bram_ctrl_bram_spwstream -pg 1 -lvl 3 -x 1120 -y 840 -defaultsOSRD
-preplace inst smartconnect_spwstream -pg 1 -lvl 1 -x 160 -y 820 -defaultsOSRD
-preplace inst rxfifo_generator -pg 1 -lvl 2 -x 520 -y 1190 -defaultsOSRD
-preplace inst txfifo_generator -pg 1 -lvl 2 -x 520 -y 850 -defaultsOSRD
-preplace inst spw_err_0 -pg 1 -lvl 5 -x 2050 -y 560 -defaultsOSRD
-preplace inst spw_err_1 -pg 1 -lvl 5 -x 2050 -y 680 -defaultsOSRD
-preplace inst spw_err_2 -pg 1 -lvl 6 -x 2350 -y 570 -defaultsOSRD
-preplace inst spwstream_top -pg 1 -lvl 4 -x 1610 -y 320 -defaultsOSRD
-preplace inst spwwrapper -pg 1 -lvl 3 -x 1120 -y 260 -defaultsOSRD
-preplace netloc spw_di_0_1 1 0 4 NJ 390 NJ 390 760J 520 1450J
-preplace netloc spw_si_0_1 1 0 4 20J 400 NJ 400 750J 530 1460J
-preplace netloc spwstream_top_0_spw_do 1 4 3 NJ 470 NJ 470 NJ
-preplace netloc spwstream_top_0_spw_so 1 4 3 NJ 490 NJ 490 NJ
-preplace netloc aclk_0_1 1 0 2 20 730 320
-preplace netloc aresetn_0_1 1 0 2 10 720 330
-preplace netloc spwstream_top_0_errcred 1 2 3 910 660 NJ 660 1900
-preplace netloc spwstream_top_0_erresc 1 2 3 850 680 NJ 680 1880
-preplace netloc spwstream_top_0_errpar 1 2 3 890 650 NJ 650 1860
-preplace netloc spwstream_top_0_errdisc 1 2 3 840 670 NJ 670 1870
-preplace netloc util_vector_logic_0_Res 1 5 1 N 560
-preplace netloc util_vector_logic_1_Res 1 5 1 2200 580n
-preplace netloc spwstream_top_0_running 1 2 5 820 690 NJ 690 1890 750 NJ 750 NJ
-preplace netloc util_vector_logic_2_Res 1 6 1 NJ 570
-preplace netloc rxfifo_generator_axi_r_overflow 1 2 5 NJ 1290 NJ 1290 NJ 1290 NJ 1290 NJ
-preplace netloc rxfifo_generator_axi_r_underflow 1 2 5 NJ 1310 NJ 1310 NJ 1310 NJ 1310 NJ
-preplace netloc txfifo_generator_axi_r_underflow 1 2 5 700J 1040 NJ 1040 NJ 1040 NJ 1040 NJ
-preplace netloc txfifo_generator_axi_r_overflow 1 2 5 710J 1020 NJ 1020 NJ 1020 NJ 1020 NJ
-preplace netloc clk100_1 1 0 4 NJ 910 340 660 740 540 1440
-preplace netloc rst_logic_1 1 0 4 NJ 130 NJ 130 700 10 1460J
-preplace netloc axi_bram_ctrl_bram_spwstream_doutb 1 2 1 780 150n
-preplace netloc spwwrapper_bram_addr_b 1 2 2 930 700 1350
-preplace netloc spwwrapper_bram_clk_b 1 2 2 900 980 1340
-preplace netloc spwwrapper_bram_wrdata_b 1 2 2 890 1010 1360
-preplace netloc spwwrapper_bram_en_b 1 2 2 920 990 1320
-preplace netloc spwwrapper_bram_rst_b 1 2 2 930 1000 1310
-preplace netloc spwwrapper_bram_we_b 1 2 2 910 1030 1330
-preplace netloc tick_in_0_1 1 0 4 10J 380 NJ 380 770J 510 1420J
-preplace netloc spwstream_top_tick_out 1 4 3 NJ 190 NJ 190 NJ
-preplace netloc spwstream_top_txrdy 1 2 3 790 640 NJ 640 1850
-preplace netloc spwstream_top_txhalff 1 2 3 800 630 NJ 630 1840
-preplace netloc spwstream_top_ctrl_out 1 2 3 860 560 NJ 560 1810
-preplace netloc spwstream_top_time_out 1 2 3 810 620 NJ 620 1830
-preplace netloc spwstream_top_rxvalid 1 2 3 830 600 NJ 600 1820
-preplace netloc spwstream_top_rxhalff 1 2 3 870 590 NJ 590 1800
-preplace netloc spwstream_top_rxflag 1 2 3 900 580 NJ 580 1780
-preplace netloc spwstream_top_rxdata 1 2 3 920 570 NJ 570 1770
-preplace netloc spwstream_top_started 1 2 3 880 610 NJ 610 1790
-preplace netloc spwstream_top_connecting 1 2 3 930 550 NJ 550 1760
-preplace netloc spwwrapper_autostart 1 3 1 1460 230n
-preplace netloc spwwrapper_linkstart 1 3 1 1460 250n
-preplace netloc spwwrapper_linkdis 1 3 1 1460 270n
-preplace netloc spwwrapper_txdivcnt 1 3 1 1460 290n
-preplace netloc spwwrapper_ctrl_in 1 3 1 1430 310n
-preplace netloc spwwrapper_time_in 1 3 1 1410 330n
-preplace netloc spwwrapper_txwrite 1 3 1 1400 350n
-preplace netloc spwwrapper_txflag 1 3 1 1390 370n
-preplace netloc spwwrapper_txdata 1 3 1 1380 390n
-preplace netloc spwwrapper_rxread 1 3 1 1370 410n
-preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 2 1 700 460n
-preplace netloc smartconnect_0_M02_AXI 1 1 1 300 510n
-preplace netloc S00_AXI_0_1 1 0 1 NJ 790
-preplace netloc S01_AXI_0_1 1 0 1 NJ 810
-preplace netloc smartconnect_0_M00_AXI 1 1 1 310 800n
-preplace netloc smartconnect_0_M01_AXI 1 1 1 N 820
-preplace netloc rxfifo_generator_M_AXI 1 2 1 720 70n
-preplace netloc txfifo_generator_M_AXI 1 2 1 730 90n
-levelinfo -pg 1 -10 160 520 1120 1610 2050 2350 2520
-pagesize -pg 1 -db -bbox -sgen -160 0 2700 1370
+preplace port S00_AXI_DMA -pg 1 -lvl 0 -x 0 -y 1170 -defaultsOSRD
+preplace port S01_AXI_DMA -pg 1 -lvl 0 -x 0 -y 1190 -defaultsOSRD
+preplace port port-id_spw_di -pg 1 -lvl 0 -x 0 -y 740 -defaultsOSRD
+preplace port port-id_spw_si -pg 1 -lvl 0 -x 0 -y 760 -defaultsOSRD
+preplace port port-id_spw_do -pg 1 -lvl 5 -x 2030 -y 1310 -defaultsOSRD
+preplace port port-id_spw_so -pg 1 -lvl 5 -x 2030 -y 1270 -defaultsOSRD
+preplace port port-id_rst_logic -pg 1 -lvl 0 -x 0 -y 500 -defaultsOSRD
+preplace port port-id_fclk -pg 1 -lvl 0 -x 0 -y 1230 -defaultsOSRD
+preplace port port-id_rst_axi -pg 1 -lvl 0 -x 0 -y 1250 -defaultsOSRD
+preplace port port-id_clk100MHz -pg 1 -lvl 0 -x 0 -y 440 -defaultsOSRD
+preplace port port-id_spw_running_intr -pg 1 -lvl 5 -x 2030 -y 1250 -defaultsOSRD
+preplace port port-id_rx_underflow_intr -pg 1 -lvl 5 -x 2030 -y 1210 -defaultsOSRD
+preplace port port-id_tx_overflow_intr -pg 1 -lvl 5 -x 2030 -y 910 -defaultsOSRD
+preplace port port-id_tick_in_intr -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace port port-id_tick_out_intr -pg 1 -lvl 5 -x 2030 -y 1290 -defaultsOSRD
+preplace portBus spw_err_intr -pg 1 -lvl 5 -x 2030 -y 1380 -defaultsOSRD
+preplace inst axi_bram_ctrl_spwstream -pg 1 -lvl 2 -x 640 -y 1390 -defaultsOSRD
+preplace inst axi_bram_ctrl_bram_spwstream -pg 1 -lvl 3 -x 1310 -y 160 -defaultsOSRD
+preplace inst smartconnect_spwstream -pg 1 -lvl 1 -x 180 -y 1210 -defaultsOSRD
+preplace inst axi_spw_rx_fifo -pg 1 -lvl 4 -x 1820 -y 1090 -defaultsOSRD
+preplace inst axi_spw_tx_fifo -pg 1 -lvl 2 -x 640 -y 1120 -defaultsOSRD
+preplace inst spw_err_0 -pg 1 -lvl 3 -x 1310 -y 1020 -defaultsOSRD
+preplace inst spw_err_1 -pg 1 -lvl 3 -x 1310 -y 1380 -defaultsOSRD
+preplace inst spw_err_2 -pg 1 -lvl 4 -x 1820 -y 1380 -defaultsOSRD
+preplace inst spwstream_top -pg 1 -lvl 2 -x 640 -y 600 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 3 -x 1310 -y 1170 -defaultsOSRD
+preplace inst spwwrapper -pg 1 -lvl 3 -x 1310 -y 600 -defaultsOSRD
+preplace netloc aclk_0_1 1 0 4 20 1100 340 1300 NJ 1300 1630J
+preplace netloc aresetn_0_1 1 0 2 30 1110 320
+preplace netloc axi_bram_ctrl_bram_spwstream_doutb 1 2 1 1080 180n
+preplace netloc clk100_1 1 0 4 NJ 440 360 370 1000 1100 NJ
+preplace netloc rst_logic_1 1 0 3 NJ 500 320 360 980
+preplace netloc spw_di_0_1 1 0 2 NJ 740 NJ
+preplace netloc spw_si_0_1 1 0 2 NJ 760 NJ
+preplace netloc spwstream_top_0_errcred 1 2 1 840 730n
+preplace netloc spwstream_top_0_errdisc 1 2 1 930 670n
+preplace netloc spwstream_top_0_erresc 1 2 1 870 710n
+preplace netloc spwstream_top_0_errpar 1 2 1 920 690n
+preplace netloc spwstream_top_0_running 1 2 3 900 1270 NJ 1270 2000J
+preplace netloc spwstream_top_0_spw_do 1 2 3 850J 1310 NJ 1310 NJ
+preplace netloc spwstream_top_0_spw_so 1 2 3 860J 1280 NJ 1280 2010J
+preplace netloc spwstream_top_connecting 1 2 1 960 630n
+preplace netloc spwstream_top_ctrl_out 1 2 1 1050 490n
+preplace netloc spwstream_top_rxdata 1 2 1 990 590n
+preplace netloc spwstream_top_rxflag 1 2 1 1010 570n
+preplace netloc spwstream_top_rxhalff 1 2 1 1020 550n
+preplace netloc spwstream_top_rxvalid 1 2 1 1030 530n
+preplace netloc spwstream_top_started 1 2 1 970 610n
+preplace netloc spwstream_top_tick_out 1 2 3 940J 1290 NJ 1290 NJ
+preplace netloc spwstream_top_time_out 1 2 1 1040 510n
+preplace netloc spwstream_top_txhalff 1 2 1 1060 450n
+preplace netloc spwstream_top_txrdy 1 2 1 1070 430n
+preplace netloc spwwrapper_autostart 1 1 3 370 920 880J 1090 1590
+preplace netloc spwwrapper_bram_addr_b 1 2 2 1120 20 1520
+preplace netloc spwwrapper_bram_clk_b 1 2 2 1090 300 1510
+preplace netloc spwwrapper_bram_en_b 1 2 2 1100 310 1590
+preplace netloc spwwrapper_bram_rst_b 1 2 2 1110 320 1540
+preplace netloc spwwrapper_bram_we_b 1 2 2 1120 330 1530
+preplace netloc spwwrapper_bram_wrdata_b 1 2 2 1000 340 1500
+preplace netloc spwwrapper_ctrl_in 1 1 3 400 910 NJ 910 1560
+preplace netloc spwwrapper_linkdis 1 1 3 420 840 910J 870 1540
+preplace netloc spwwrapper_linkstart 1 1 3 380 930 NJ 930 1580
+preplace netloc spwwrapper_rxread 1 1 3 410 940 NJ 940 1530
+preplace netloc spwwrapper_time_in 1 1 3 430 860 NJ 860 1510
+preplace netloc spwwrapper_txdata 1 1 3 460 850 890J 950 1550
+preplace netloc spwwrapper_txdivcnt 1 1 3 390 900 NJ 900 1570
+preplace netloc spwwrapper_txflag 1 1 3 450 880 NJ 880 1500
+preplace netloc spwwrapper_txwrite 1 1 3 440 870 880J 890 1520
+preplace netloc tick_in_0_1 1 0 2 NJ 600 NJ
+preplace netloc util_vector_logic_0_Res 1 3 1 1620 1020n
+preplace netloc util_vector_logic_1_Res 1 3 1 1570 1380n
+preplace netloc util_vector_logic_2_Res 1 4 1 NJ 1380
+preplace netloc util_vector_logic_0_Res1 1 3 1 1640J 1120n
+preplace netloc axi_spw_rx_fifo_axi_w_overflow 1 2 3 1120 920 1600J 900 2000
+preplace netloc axi_spw_tx_fifo_axi_r_underflow 1 2 1 960 800n
+preplace netloc axi_spw_rx_fifo_axi_r_underflow 1 4 1 NJ 1210
+preplace netloc axi_spw_tx_fifo_axi_w_overflow 1 2 3 820J 1110 1610J 910 NJ
+preplace netloc S00_AXI_0_1 1 0 1 NJ 1170
+preplace netloc S01_AXI_0_1 1 0 1 NJ 1190
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 2 1 830 80n
+preplace netloc axi_spw_rx_fifo_M_AXI 1 0 5 40 10 NJ 10 NJ 10 NJ 10 2010
+preplace netloc smartconnect_spwstream_M01_AXI 1 1 1 330 1220n
+preplace netloc smartconnect_spwstream_M00_AXI 1 1 1 350 1090n
+preplace netloc spwwrapper_m_axi 1 3 1 1630 440n
+preplace netloc axi_spw_tx_fifo_M_AXI1 1 2 1 950 400n
+levelinfo -pg 1 0 180 640 1310 1820 2030
+pagesize -pg 1 -db -bbox -sgen -150 0 2210 1470
 "
 }
 {

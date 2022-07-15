@@ -12,7 +12,7 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.ACLK.ASSOCIATED_BUSIF">M00_SC:M01_SC:M02_SC:M03_SC:M04_SC:M05_SC:M06_SC:M07_SC:M08_SC:M09_SC:M10_SC:M11_SC:M12_SC:M13_SC:M14_SC:M15_SC:S00_SC:S01_SC:S02_SC:S03_SC:S04_SC:S05_SC:S06_SC:S07_SC:S08_SC:S09_SC:S10_SC:S11_SC:S12_SC:S13_SC:S14_SC:S15_SC</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.ACLK.ASSOCIATED_PORT"/>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.ACLK.ASSOCIATED_RESET"/>
-        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.ACLK.CLK_DOMAIN">AXI_SpaceWire_Interface_aclk_0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.ACLK.CLK_DOMAIN">AXI_SpaceWire_Interface_fclk</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.ACLK.FREQ_HZ">100000000</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.ACLK.FREQ_TOLERANCE_HZ">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.ACLK.INSERT_VIP">0</spirit:configurableElementValue>
@@ -20,9 +20,9 @@
         <spirit:configurableElementValue spirit:referenceId="BUSIFPARAM_VALUE.ACLKEN.POLARITY">ACTIVE_LOW</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_CONNECTIVITY">0b000000</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_M_PIPELINES">1</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_NUM_MI">3</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_NUM_SI">2</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_PAYLD_WIDTH">54</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_NUM_MI">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_NUM_SI">3</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_PAYLD_WIDTH">53</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_S_LATENCY">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_S_PIPELINES">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_TESTING_MODE">0</spirit:configurableElementValue>
@@ -30,7 +30,7 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.Component_Name">bd_9735_wsw_0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_S00_CONNECTIVITY">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_S01_CONNECTIVITY">0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_S02_CONNECTIVITY">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_S02_CONNECTIVITY">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_S03_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_S04_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_S05_CONNECTIVITY">1</spirit:configurableElementValue>
@@ -46,7 +46,7 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_S15_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S00_CONNECTIVITY">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S01_CONNECTIVITY">0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S02_CONNECTIVITY">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S02_CONNECTIVITY">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S03_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S04_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S05_CONNECTIVITY">1</spirit:configurableElementValue>
@@ -60,8 +60,8 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S13_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S14_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_S15_CONNECTIVITY">1</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M02_S00_CONNECTIVITY">0</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M02_S01_CONNECTIVITY">0</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M02_S00_CONNECTIVITY">1</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M02_S01_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M02_S02_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M02_S03_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M02_S04_CONNECTIVITY">1</spirit:configurableElementValue>
@@ -285,9 +285,9 @@
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M15_S14_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M15_S15_CONNECTIVITY">1</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M_PIPELINES">1</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.NUM_MI">3</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.NUM_SI">2</spirit:configurableElementValue>
-        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PAYLD_WIDTH">54</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.NUM_MI">2</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.NUM_SI">3</spirit:configurableElementValue>
+        <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PAYLD_WIDTH">53</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.S_LATENCY">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.S_PIPELINES">0</spirit:configurableElementValue>
         <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.TESTING_MODE">0</spirit:configurableElementValue>
@@ -326,10 +326,10 @@
             <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.ACLKEN.POLARITY" xilinx:valuePermission="bd"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.M00_S00_CONNECTIVITY" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.M00_S01_CONNECTIVITY" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.M00_S02_CONNECTIVITY" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.M01_S00_CONNECTIVITY" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.M01_S01_CONNECTIVITY" xilinx:valueSource="user"/>
-            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.M02_S00_CONNECTIVITY" xilinx:valueSource="user"/>
-            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.M02_S01_CONNECTIVITY" xilinx:valueSource="user"/>
+            <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.M01_S02_CONNECTIVITY" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.M_PIPELINES" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.NUM_MI" xilinx:valueSource="user"/>
             <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.NUM_SI" xilinx:valueSource="user"/>
@@ -347,13 +347,13 @@
                   &quot;s_sc_send&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;5&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;s_sc_req&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;5&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;s_sc_info&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;5&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
-                  &quot;s_sc_payld&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;107&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
+                  &quot;s_sc_payld&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;158&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;s_sc_recv&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;5&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;m_sc_recv&quot;: [ { &quot;direction&quot;: &quot;in&quot;, &quot;size_left&quot;: &quot;5&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;m_sc_send&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;5&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;m_sc_req&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;5&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
                   &quot;m_sc_info&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;5&quot;, &quot;size_right&quot;: &quot;0&quot; } ],
-                  &quot;m_sc_payld&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;161&quot;, &quot;size_right&quot;: &quot;0&quot; } ]
+                  &quot;m_sc_payld&quot;: [ { &quot;direction&quot;: &quot;out&quot;, &quot;size_left&quot;: &quot;105&quot;, &quot;size_right&quot;: &quot;0&quot; } ]
                 },
                 &quot;interfaces&quot;: {
                   &quot;aclk&quot;: {
@@ -364,7 +364,7 @@
                       &quot;FREQ_HZ&quot;: [ { &quot;value&quot;: &quot;100000000&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
                       &quot;FREQ_TOLERANCE_HZ&quot;: [ { &quot;value&quot;: &quot;0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;long&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
                       &quot;PHASE&quot;: [ { &quot;value&quot;: &quot;0.0&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;format&quot;: &quot;float&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
-                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;AXI_SpaceWire_Interface_aclk_0&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
+                      &quot;CLK_DOMAIN&quot;: [ { &quot;value&quot;: &quot;AXI_SpaceWire_Interface_fclk&quot;, &quot;value_src&quot;: &quot;default_prop&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
                       &quot;ASSOCIATED_BUSIF&quot;: [ { &quot;value&quot;: &quot;M00_SC:M01_SC:M02_SC:M03_SC:M04_SC:M05_SC:M06_SC:M07_SC:M08_SC:M09_SC:M10_SC:M11_SC:M12_SC:M13_SC:M14_SC:M15_SC:S00_SC:S01_SC:S02_SC:S03_SC:S04_SC:S05_SC:S06_SC:S07_SC:S08_SC:S09_SC:S10_SC:S11_SC:S12_SC:S13_SC:S14_SC:S15_SC&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
                       &quot;ASSOCIATED_PORT&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
                       &quot;ASSOCIATED_RESET&quot;: [ { &quot;value&quot;: &quot;&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;resolve_type&quot;: &quot;generated&quot;, &quot;is_ips_inferred&quot;: true, &quot;is_static_object&quot;: false } ],
@@ -393,11 +393,11 @@
                       &quot;BRIDGES&quot;: [ { &quot;value&quot;: &quot;M00_SC:M01_SC:M02_SC:M03_SC:M04_SC:M05_SC:M06_SC:M07_SC:M08_SC:M09_SC:M10_SC:M11_SC:M12_SC:M13_SC:M14_SC:M15_SC&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ]
                     },
                     &quot;port_maps&quot;: {
-                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_send&quot;, &quot;physical_left&quot;: &quot;2&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
-                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_req&quot;, &quot;physical_left&quot;: &quot;2&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
-                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_info&quot;, &quot;physical_left&quot;: &quot;2&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
-                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_payld&quot;, &quot;physical_left&quot;: &quot;53&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
-                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_recv&quot;, &quot;physical_left&quot;: &quot;2&quot;, &quot;physical_right&quot;: &quot;0&quot; } ]
+                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_send&quot;, &quot;physical_left&quot;: &quot;1&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
+                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_req&quot;, &quot;physical_left&quot;: &quot;1&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
+                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_info&quot;, &quot;physical_left&quot;: &quot;1&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
+                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_payld&quot;, &quot;physical_left&quot;: &quot;52&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
+                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_recv&quot;, &quot;physical_left&quot;: &quot;1&quot;, &quot;physical_right&quot;: &quot;0&quot; } ]
                     }
                   },
                   &quot;M00_SC&quot;: {
@@ -405,11 +405,11 @@
                     &quot;abstraction_type&quot;: &quot;xilinx.com:interface:sc_rtl:1.0&quot;,
                     &quot;mode&quot;: &quot;master&quot;,
                     &quot;port_maps&quot;: {
-                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_recv&quot;, &quot;physical_left&quot;: &quot;1&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
-                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_send&quot;, &quot;physical_left&quot;: &quot;1&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
-                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_req&quot;, &quot;physical_left&quot;: &quot;1&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
-                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_info&quot;, &quot;physical_left&quot;: &quot;1&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
-                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_payld&quot;, &quot;physical_left&quot;: &quot;53&quot;, &quot;physical_right&quot;: &quot;0&quot; } ]
+                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_recv&quot;, &quot;physical_left&quot;: &quot;2&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
+                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_send&quot;, &quot;physical_left&quot;: &quot;2&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
+                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_req&quot;, &quot;physical_left&quot;: &quot;2&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
+                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_info&quot;, &quot;physical_left&quot;: &quot;2&quot;, &quot;physical_right&quot;: &quot;0&quot; } ],
+                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_payld&quot;, &quot;physical_left&quot;: &quot;52&quot;, &quot;physical_right&quot;: &quot;0&quot; } ]
                     }
                   },
                   &quot;S01_SC&quot;: {
@@ -420,11 +420,11 @@
                       &quot;BRIDGES&quot;: [ { &quot;value&quot;: &quot;M00_SC:M01_SC:M02_SC:M03_SC:M04_SC:M05_SC:M06_SC:M07_SC:M08_SC:M09_SC:M10_SC:M11_SC:M12_SC:M13_SC:M14_SC:M15_SC&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ]
                     },
                     &quot;port_maps&quot;: {
-                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_send&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;3&quot; } ],
-                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_req&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;3&quot; } ],
-                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_info&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;3&quot; } ],
-                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_payld&quot;, &quot;physical_left&quot;: &quot;107&quot;, &quot;physical_right&quot;: &quot;54&quot; } ],
-                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_recv&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;3&quot; } ]
+                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_send&quot;, &quot;physical_left&quot;: &quot;3&quot;, &quot;physical_right&quot;: &quot;2&quot; } ],
+                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_req&quot;, &quot;physical_left&quot;: &quot;3&quot;, &quot;physical_right&quot;: &quot;2&quot; } ],
+                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_info&quot;, &quot;physical_left&quot;: &quot;3&quot;, &quot;physical_right&quot;: &quot;2&quot; } ],
+                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_payld&quot;, &quot;physical_left&quot;: &quot;105&quot;, &quot;physical_right&quot;: &quot;53&quot; } ],
+                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_recv&quot;, &quot;physical_left&quot;: &quot;3&quot;, &quot;physical_right&quot;: &quot;2&quot; } ]
                     }
                   },
                   &quot;M01_SC&quot;: {
@@ -432,23 +432,26 @@
                     &quot;abstraction_type&quot;: &quot;xilinx.com:interface:sc_rtl:1.0&quot;,
                     &quot;mode&quot;: &quot;master&quot;,
                     &quot;port_maps&quot;: {
-                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_recv&quot;, &quot;physical_left&quot;: &quot;3&quot;, &quot;physical_right&quot;: &quot;2&quot; } ],
-                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_send&quot;, &quot;physical_left&quot;: &quot;3&quot;, &quot;physical_right&quot;: &quot;2&quot; } ],
-                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_req&quot;, &quot;physical_left&quot;: &quot;3&quot;, &quot;physical_right&quot;: &quot;2&quot; } ],
-                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_info&quot;, &quot;physical_left&quot;: &quot;3&quot;, &quot;physical_right&quot;: &quot;2&quot; } ],
-                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_payld&quot;, &quot;physical_left&quot;: &quot;107&quot;, &quot;physical_right&quot;: &quot;54&quot; } ]
+                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_recv&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;3&quot; } ],
+                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_send&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;3&quot; } ],
+                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_req&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;3&quot; } ],
+                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_info&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;3&quot; } ],
+                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_payld&quot;, &quot;physical_left&quot;: &quot;105&quot;, &quot;physical_right&quot;: &quot;53&quot; } ]
                     }
                   },
-                  &quot;M02_SC&quot;: {
+                  &quot;S02_SC&quot;: {
                     &quot;vlnv&quot;: &quot;xilinx.com:interface:sc:1.0&quot;,
                     &quot;abstraction_type&quot;: &quot;xilinx.com:interface:sc_rtl:1.0&quot;,
-                    &quot;mode&quot;: &quot;master&quot;,
+                    &quot;mode&quot;: &quot;slave&quot;,
+                    &quot;parameters&quot;: {
+                      &quot;BRIDGES&quot;: [ { &quot;value&quot;: &quot;M00_SC:M01_SC:M02_SC:M03_SC:M04_SC:M05_SC:M06_SC:M07_SC:M08_SC:M09_SC:M10_SC:M11_SC:M12_SC:M13_SC:M14_SC:M15_SC&quot;, &quot;value_src&quot;: &quot;constant&quot;, &quot;value_permission&quot;: &quot;bd&quot;, &quot;usage&quot;: &quot;all&quot; } ]
+                    },
                     &quot;port_maps&quot;: {
-                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_recv&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;4&quot; } ],
-                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_send&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;4&quot; } ],
-                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_req&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;4&quot; } ],
-                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_info&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;4&quot; } ],
-                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;m_sc_payld&quot;, &quot;physical_left&quot;: &quot;161&quot;, &quot;physical_right&quot;: &quot;108&quot; } ]
+                      &quot;SEND&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_send&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;4&quot; } ],
+                      &quot;REQ&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_req&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;4&quot; } ],
+                      &quot;INFO&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_info&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;4&quot; } ],
+                      &quot;PAYLD&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_payld&quot;, &quot;physical_left&quot;: &quot;158&quot;, &quot;physical_right&quot;: &quot;106&quot; } ],
+                      &quot;RECV&quot;: [ { &quot;physical_name&quot;: &quot;s_sc_recv&quot;, &quot;physical_left&quot;: &quot;5&quot;, &quot;physical_right&quot;: &quot;4&quot; } ]
                     }
                   }
                 }

@@ -45,47 +45,49 @@ entity spwwrapper is
         bram_rst_b : out std_logic;
         bram_we_b : out std_logic_vector(3 downto 0);
         
-        -- M_AXI rx
-        s_axi_araddr_rx : in std_logic_vector(31 downto 0);
-        s_axi_arprot_rx : in std_logic_vector(2 downto 0);
-        s_axi_arready_rx : out std_logic;
-        s_axi_arvalid_rx : in std_logic;
-        s_axi_awaddr_rx : in std_logic_vector(31 downto 0);
-        s_axi_awprot_rx : in std_logic_vector(2 downto 0);
-        s_axi_awready_rx : out std_logic;
-        s_axi_awvalid_rx : in std_logic;
-        s_axi_bready_rx : in std_logic;
-        s_axi_bresp_rx : out std_logic_vector(1 downto 0);
-        s_axi_bvalid_rx : out std_logic;
-        s_axi_rdata_rx : out std_logic_vector(31 downto 0);
-        s_axi_rready_rx : in std_logic;
-        s_axi_rresp_rx : out std_logic_vector(1 downto 0);
-        s_axi_rvalid_rx : out std_logic;
-        s_axi_wdata_rx : in std_logic_vector(31 downto 0);
-        s_axi_wready_rx : out std_logic;
-        s_axi_wstrb_rx : in std_logic_vector(3 downto 0);
-        s_axi_wvalid_rx : in std_logic;
+        -- read from rx_fifo
+        -- M_AXI
+        m_axi_araddr : out std_logic_vector(31 downto 0);
+        m_axi_arprot : out std_logic_vector(2 downto 0);
+        m_axi_arready : in std_logic;
+        m_axi_arvalid : out std_logic;
+        m_axi_awaddr : out std_logic_vector(31 downto 0);
+        m_axi_awprot : out std_logic_vector(2 downto 0);
+        m_axi_awready : in std_logic;
+        m_axi_awvalid : out std_logic;
+        m_axi_bready : out std_logic;
+        m_axi_bresp : in std_logic_vector(1 downto 0);
+        m_axi_bvalid : in std_logic;
+        m_axi_rdata : in std_logic_vector(31 downto 0);
+        m_axi_rready : out std_logic;
+        m_axi_rresp : in std_logic_vector(1 downto 0);
+        m_axi_rvalid : in std_logic;
+        m_axi_wdata : out std_logic_vector(31 downto 0);
+        m_axi_wready : in std_logic;
+        m_axi_wstrb : out std_logic_vector(3 downto 0);
+        m_axi_wvalid : out std_logic;
 
-        -- M_AXI rx
-        s_axi_araddr_tx : in std_logic_vector(31 downto 0);
-        s_axi_arprot_tx : in std_logic_vector(2 downto 0);
-        s_axi_arready_tx : out std_logic;
-        s_axi_arvalid_tx : in std_logic;
-        s_axi_awaddr_tx : in std_logic_vector(31 downto 0);
-        s_axi_awprot_tx : in std_logic_vector(2 downto 0);
-        s_axi_awready_tx : out std_logic;
-        s_axi_awvalid_tx : in std_logic;
-        s_axi_bready_tx : in std_logic;
-        s_axi_bresp_tx : out std_logic_vector(1 downto 0);
-        s_axi_bvalid_tx : out std_logic;
-        s_axi_rdata_tx : out std_logic_vector(31 downto 0);
-        s_axi_rready_tx : in std_logic;
-        s_axi_rresp_tx : out std_logic_vector(1 downto 0);
-        s_axi_rvalid_tx : out std_logic;
-        s_axi_wdata_tx : in std_logic_vector(31 downto 0);
-        s_axi_wready_tx : out std_logic;
-        s_axi_wstrb_tx : in std_logic_vector(3 downto 0);
-        s_axi_wvalid_tx : in std_logic;
+        -- write into tx_fifo
+        -- S_AXI
+        s_axi_araddr : in std_logic_vector(31 downto 0);
+        s_axi_arprot : in std_logic_vector(2 downto 0);
+        s_axi_arready : out std_logic;
+        s_axi_arvalid : in std_logic;
+        s_axi_awaddr : in std_logic_vector(31 downto 0);
+        s_axi_awprot : in std_logic_vector(2 downto 0);
+        s_axi_awready : out std_logic;
+        s_axi_awvalid : in std_logic;
+        s_axi_bready : in std_logic;
+        s_axi_bresp : out std_logic_vector(1 downto 0);
+        s_axi_bvalid : out std_logic;
+        s_axi_rdata : out std_logic_vector(31 downto 0);
+        s_axi_rready : in std_logic;
+        s_axi_rresp : out std_logic_vector(1 downto 0);
+        s_axi_rvalid : out std_logic;
+        s_axi_wdata : in std_logic_vector(31 downto 0);
+        s_axi_wready : out std_logic;
+        s_axi_wstrb : in std_logic_vector(3 downto 0);
+        s_axi_wvalid : in std_logic;
         
         -- spwstream signals.
         autostart : out std_logic;
@@ -112,7 +114,10 @@ entity spwwrapper is
         errdisc : in std_logic;
         errpar : in std_logic;
         erresc : in std_logic;
-        errcred : in std_logic
+        errcred : in std_logic;
+        
+        rx_overflow : in std_logic;
+        tx_underflow : in std_logic
     );
 end spwwrapper;
 
